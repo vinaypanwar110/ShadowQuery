@@ -1,0 +1,128 @@
+/* Main Container */
+.sql-query-viewer {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 20px;
+  background: #f4f4f9;
+  box-sizing: border-box;
+}
+
+.query-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 30%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+.table-container {
+  flex-grow: 1;
+  width: 65%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+/* Styled Dropdown */
+.query-select {
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 1px solid #999;
+  background: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  color: #333;
+}
+
+.run-button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.run-button:hover {
+  background-color: #0056b3;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+  background: white;
+}
+
+th {
+  background: #007bff;
+  color: white;
+}
+
+.filter-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #100b0b;
+  font-size: 16px;
+  background-color: #fcf9f9;
+  color: black;
+} 
+
+/* Highlighted Columns for Comparison */
+.highlight-removed {
+  background-color: #ffcccc !important; /* Red for removed */
+  color: #100b0b;
+}
+
+.highlight-added {
+  background-color: #ccffcc !important; /* Green for added */
+  color: #100b0b;
+}
+
+/* Spacing for Export Buttons */
+.export-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.export-buttons button {
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.export-buttons button:hover {
+  background-color: #a0a0a0;
+}
+

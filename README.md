@@ -52,6 +52,3 @@ Ensure you have **Node.js** and **npm** installed.
 ## Deployment
 The application is deployed on Render. You can access it here:  
 [🔗 Live Demo](https://shadowquery.onrender.com)
-
-## Additional Documentation
-- **Video Walkthrough:** [Watch Here](#)

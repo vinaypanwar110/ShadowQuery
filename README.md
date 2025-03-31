@@ -1,12 +1,59 @@
-# React + Vite
+ShadowQuery - SQL Query Viewer
+Overview
+ShadowQuery is a web-based application that allows users to input SQL queries and view corresponding results in a structured format. The application provides an intuitive interface for interacting with mock query results.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Key Features
+Run predefined SQL queries.
 
-Currently, two official plugins are available:
+Display tabular data associated with each query.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Filter query results.
 
-## Expanding the ESLint configuration
+Export data in CSV or JSON format.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tech Stack
+Framework: React.js
+
+State Management: useState
+
+Styling: CSS
+
+Data Handling: JavaScript
+
+Major Dependencies
+None (pure React and JavaScript used)
+
+Optimizations Implemented
+Efficient Data Rendering: Only the displayed rows are processed at any given time.
+
+Minimal Re-renders: State updates are optimized to avoid unnecessary re-renders.
+
+Setup & Installation
+Prerequisites
+Ensure you have Node.js and npm installed.
+
+Steps to Run Locally
+Clone the repository:
+git clone https://github.com/your-github/shadowquery.git
+cd shadowquery
+Install dependencies:
+npm install
+Start the development server:
+npm run dev
+Open http://localhost:5173 in your browser.
+
+How to Use the App
+Select a Query: Use the dropdown to pick a predefined SQL query.
+
+Run the Query: Click the "Run Query" button to display results.
+
+Filter Data: Use the search bar to filter results.
+
+Export Data: Download results in CSV or JSON format.
+
+Deployment
+The application is deployed on Render. You can access it here:
+[🔗 Live Demo](https://shadowquery.onrender.com)
+
+Additional Documentation
+Video Walkthrough: Watch Here

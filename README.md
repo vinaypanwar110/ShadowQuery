@@ -1,5 +1,6 @@
-ShadowQuery - SQL Query Viewer
-Overview
+# ShadowQuery - SQL Query Viewer
+
+-- Overview
 ShadowQuery is a web-based application that allows users to input SQL queries and view corresponding results in a structured format. The application provides an intuitive interface for interacting with mock query results.
 
 Key Features
